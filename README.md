@@ -9,7 +9,7 @@ CryptSharp is a lightweight C# cryptographic wrapper that simplifies the usage o
 - **Secure Random Number Generation**: Generate cryptographically secure random numbers and byte arrays.
 
 ## Installation
-Simply include `CryptSharp.cs` in your C# project and start using the cryptographic functions.
+Simply include `CryptSharp.cs` in your C# project and start using the cryptographic functions or go in the release and import the dll.
 
 ## Usage
 
