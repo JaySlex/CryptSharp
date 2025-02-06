@@ -21,7 +21,7 @@ byte[] hash = CryptSharp.ComputeSha256Hash(data);
 
 ### AES Encryption/Decryption
 ```csharp
-byte[] key = CryptSharp.GenerateRandomBytes(32); // AES-256 key
+byte[] key = CryptSharp.GenerateRandomBytes(32); // AES-256 key, note that you can also use SHA-256 to generate a key (from a password as example)
 string plainText = "Hello World";
 byte[] cipherText = CryptSharp.EncryptAES(plainText, key);
 byte[] decryptedText = CryptSharp.DecryptAES(cipherText, key);
